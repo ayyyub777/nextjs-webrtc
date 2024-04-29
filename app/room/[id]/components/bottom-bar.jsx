@@ -7,10 +7,11 @@ const BottomBar = () => {
   return (
     <div className="h-24 p-6 flex justify-end items-center">
       <Button
+        variant="danger"
         size="icon"
         className="bg-accent-error text-accent-error-brighter"
       >
-        <Icons.exit className="size-8" />
+        <Icons.exit className="size-6" />
       </Button>
     </div>
   );

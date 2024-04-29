@@ -10,6 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-onPrimary hover:bg-primary-bright",
+        danger: "bg-accent-error hover:text-accent-error-bright",
       },
       size: {
         default: "px-4 py-3",
